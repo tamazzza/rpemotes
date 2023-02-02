@@ -2424,7 +2424,7 @@ function UIMenu.New(Title, Subtitle, X, Y, TxtDictionary, TxtName)
             Down = {
                 Enabled = true,
             },
-            Decrement = {
+            Increment = {
                 Enabled = true,
             }
         },
@@ -2887,12 +2887,7 @@ function UIMenu:ProcessControl()
         self:GoBack()
     end
 
-
-    if self.Controls.Decrement.Enabled and (IsDisabledControlJustReleased(0, 84) or IsDisabledControlJustReleased(1, 84) or IsDisabledControlJustReleased(2, 84)) then
-        self:DecrementSelection()
-    end
-
-    if (IsDisabledControlJustReleased(0, 19) or IsDisabledControlJustReleased(1, 19) or IsDisabledControlJustReleased(2, 19)) then
+    if self.Controls.Increment.Enabled and (IsDisabledControlJustReleased(0, 19) or IsDisabledControlJustReleased(1, 19) or IsDisabledControlJustReleased(2, 19)) then
         if paginationValue == 1 then
             paginationValue = 10
         else
@@ -3611,15 +3606,13 @@ function UIMenu:UpdateScaleform()
         PopScaleformMovieFunction()
     end
 
-    if self.Controls.Decrement.Enabled then
+    if self.Controls.Increment.Enabled then
         PushScaleformMovieFunction(self.InstructionalScaleform, "SET_DATA_SLOT")
         PushScaleformMovieFunctionParameterInt(3)
         PushScaleformMovieFunctionParameterString(GetControlInstructionalButton(2, 84, 0))
         PushScaleformMovieFunctionParameterString(Config.Languages[lang]['btn_increment']..(paginationValue and ': '..paginationValue or ": "..paginationValue))
         PopScaleformMovieFunction()
     end
-
-
 
     local count = 3
 
