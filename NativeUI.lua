@@ -3609,7 +3609,7 @@ function UIMenu:UpdateScaleform()
     if self.Controls.Increment.Enabled then
         PushScaleformMovieFunction(self.InstructionalScaleform, "SET_DATA_SLOT")
         PushScaleformMovieFunctionParameterInt(3)
-        PushScaleformMovieFunctionParameterString(GetControlInstructionalButton(2, 84, 0))
+        PushScaleformMovieFunctionParameterString(GetControlInstructionalButton(2, 19, 0))
         PushScaleformMovieFunctionParameterString(Config.Languages[lang]['btn_increment']..(paginationValue and ': '..paginationValue or ": "..paginationValue))
         PopScaleformMovieFunction()
     end
