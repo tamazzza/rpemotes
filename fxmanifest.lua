@@ -1,5 +1,4 @@
---- Maintained by TayMcKenzieNZ ---
---- Check for updates at https://github.com/TayMcKenzieNZ/rpemotes ---
+--- Maintained by tazo ---
 
 fx_version 'cerulean'
 game 'gta5'
@@ -10,15 +9,6 @@ dependencies {
     '/server:5848',
     '/onesync',
 }
-
--- Remove the following lines if you would like to use the SQL keybinds. Requires oxmysql.
-
-region oxmysql
-
-dependency 'oxmysql'
-server_script '@oxmysql/lib/MySQL.lua'
-
-#endregion oxmysql
 
 shared_scripts {
     'config.lua',
