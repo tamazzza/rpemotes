@@ -2,7 +2,7 @@
 
 fx_version 'cerulean'
 game 'gta5'
-version '1.1.7'
+version '1.1.9'
 lua54 'yes'
 
 dependencies {
@@ -48,50 +48,50 @@ client_scripts {
 }
 
 
----- Loads all ytyp files for custom props to stream ---
+---- Loads all ytyp files for custom props to stream/prop ---
 
-data_file 'DLC_ITYP_REQUEST' 'stream/taymckenzienz_rpemotes.ytyp'
+data_file 'DLC_ITYP_REQUEST' 'stream/prop/taymckenzienz_rpemotes.ytyp'
 
-data_file 'DLC_ITYP_REQUEST' 'badge1.ytyp'
+data_file 'DLC_ITYP_REQUEST' 'stream/prop/badge1.ytyp'
 
-data_file 'DLC_ITYP_REQUEST' 'copbadge.ytyp'
+data_file 'DLC_ITYP_REQUEST' 'stream/prop/copbadge.ytyp'
 
-data_file 'DLC_ITYP_REQUEST' 'bzzz_foodpack'
+data_file 'DLC_ITYP_REQUEST' 'stream/prop/bzzz_foodpack'
 
-data_file 'DLC_ITYP_REQUEST' 'bzzz_prop_torch_fire001.ytyp'
+data_file 'DLC_ITYP_REQUEST' 'stream/prop/bzzz_prop_torch_fire001.ytyp'
 
-data_file 'DLC_ITYP_REQUEST' 'natty_props_lollipops.ytyp'
+data_file 'DLC_ITYP_REQUEST' 'stream/prop/natty_props_lollipops.ytyp'
 
-data_file 'DLC_ITYP_REQUEST' 'apple_1.ytyp'
+data_file 'DLC_ITYP_REQUEST' 'stream/prop/apple_1.ytyp'
 
-data_file 'DLC_ITYP_REQUEST' 'stream/bzzz_food_icecream_pack.ytyp'
+data_file 'DLC_ITYP_REQUEST' 'stream/prop/bzzz_food_icecream_pack.ytyp'
 
-data_file 'DLC_ITYP_REQUEST' 'stream/bzzz_food_dessert_a.ytyp'
+data_file 'DLC_ITYP_REQUEST' 'stream/prop/bzzz_food_dessert_a.ytyp'
 
-data_file 'DLC_ITYP_REQUEST' 'stream/bzzz_prop_give_gift.ytyp'
+data_file 'DLC_ITYP_REQUEST' 'stream/prop/bzzz_prop_give_gift.ytyp'
 
-data_file 'DLC_ITYP_REQUEST' 'stream/ultra_ringcase.ytyp'
+data_file 'DLC_ITYP_REQUEST' 'stream/prop/ultra_ringcase.ytyp'
 
-data_file 'DLC_ITYP_REQUEST' 'stream/bzzz_food_xmas22.ytyp'
+data_file 'DLC_ITYP_REQUEST' 'stream/prop/bzzz_food_xmas22.ytyp'
 
-data_file 'DLC_ITYP_REQUEST' 'stream/knjgh_pizzas.ytyp'
+data_file 'DLC_ITYP_REQUEST' 'stream/prop/knjgh_pizzas.ytyp'
 
-data_file 'DLC_ITYP_REQUEST' 'stream/pata_christmasfood.ytyp'
+data_file 'DLC_ITYP_REQUEST' 'stream/prop/pata_christmasfood.ytyp'
 
-data_file 'DLC_ITYP_REQUEST' 'stream/pata_cake.ytyp'
+data_file 'DLC_ITYP_REQUEST' 'stream/prop/pata_cake.ytyp'
 
-data_file 'DLC_ITYP_REQUEST' 'stream/pata_freevalentinesday.ytyp'
+data_file 'DLC_ITYP_REQUEST' 'stream/prop/pata_freevalentinesday.ytyp'
 
-data_file 'DLC_ITYP_REQUEST' 'stream/bzzz_prop_cake_love_001.ytyp'
+data_file 'DLC_ITYP_REQUEST' 'stream/prop/bzzz_prop_cake_love_001.ytyp'
 
-data_file 'DLC_ITYP_REQUEST' 'stream/bzzz_prop_cake_birthday_001.ytyp'
+data_file 'DLC_ITYP_REQUEST' 'stream/prop/bzzz_prop_cake_birthday_001.ytyp'
 
-data_file 'DLC_ITYP_REQUEST' 'stream/bzzz_prop_cake_baby_001.ytyp'
+data_file 'DLC_ITYP_REQUEST' 'stream/prop/bzzz_prop_cake_baby_001.ytyp'
 
-data_file 'DLC_ITYP_REQUEST' 'stream/bzzz_prop_cake_casino001.ytyp'
+data_file 'DLC_ITYP_REQUEST' 'stream/prop/bzzz_prop_cake_casino001.ytyp'
 
-data_file 'DLC_ITYP_REQUEST' 'stream/brum_heart.ytyp'
+data_file 'DLC_ITYP_REQUEST' 'stream/prop/brum_heart.ytyp'
 
-data_file 'DLC_ITYP_REQUEST' 'stream/brum_heartfrappe.ytyp'
+data_file 'DLC_ITYP_REQUEST' 'stream/prop/brum_heartfrappe.ytyp'
 
-data_file 'DLC_ITYP_REQUEST' 'stream/kaykaymods_props.ytyp'
+data_file 'DLC_ITYP_REQUEST' 'stream/prop/kaykaymods_props.ytyp'
