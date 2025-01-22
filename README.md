@@ -306,10 +306,6 @@ Command usage example: emoteextract 1
 
 * Add `ensure rpemotes` to your `server.cfg`
 
-* Download the latest recommended artifacts [for Windows](https://runtime.fivem.net/artifacts/fivem/build_server_windows/master/) or [for Linux](https://runtime.fivem.net/artifacts/fivem/build_proot_linux/master/)
-
-* [Enforce gamebuild to latest build](https://forum.cfx.re/t/tutorial-forcing-gamebuild-to-casino-cayo-perico-or-tuners-update/4784977) for all emotes and props to work as intended.
-
 **Onesync Infinity is required for the particle effects to work as intended** This can be done via txadmin or your localhost .bat file.**
 
 For localhost servers, comment out onesync from your server.cfg and add the following to your `.bat` file:
@@ -406,13 +402,4 @@ It is also a good idea to keep a backup of your config file.
 Below is an example:
 
 <img src="screenshots/customanims.png" width="550">
-
-- - - 
-
-- - - 
-# Police Badge 👮
-
-- Custom LSPD police badge by [LSPDFR member Sam](https://www.lcpdfr.com/downloads/gta5mods/misc/23386-lspd-police-badge/)
-
-- LSPD reskinned badge by [GTA5Mods user Sladus_Slawonkus](https://www.gta5-mods.com/misc/lspd-police-badge-replace-sladus_slawonkus)
 - - - 
