@@ -402,4 +402,3 @@ It is also a good idea to keep a backup of your config file.
 Below is an example:
 
 <img src="screenshots/customanims.png" width="550">
-- - - 
